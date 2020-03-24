@@ -1,21 +1,3 @@
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
 <h1 align="center">
     React Native Basic
 </h1>
@@ -39,8 +21,8 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-technologies">Topics Covered</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tipics-covered">Topics Covered</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-minidisc-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -48,25 +30,8 @@
 <br>
 
 <p align="center">
-  <div class="row">
-    <div class="column">
-      <img src="./.github/1.jpg">
-    </div>
-    <div class="column">
-      <img src="./.github/2.jpg">
-    </div>
-    <div class="column">
-      <img src="./.github/3.jpg">
-    </div>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="./.github/4.jpg">
-    </div>
-    <div class="column">
-      <img src="./.github/5.jpg">
-    </div>
-  </div>
+  <img src="./.github/1.jpg" width="50%" />
+  <img src="./.github/2.jpg" width="50%" />
 </p>
 
 # Topics covered
