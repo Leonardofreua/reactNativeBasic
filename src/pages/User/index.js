@@ -19,7 +19,6 @@ import {
 } from './styles';
 
 /**
- * Adicionar loading nas stars;
  * adicionar loading no final da lista para trazers mais ropositorios
  * adicionar webview para abrir o repositorio starred
  */

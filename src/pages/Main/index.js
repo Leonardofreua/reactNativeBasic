@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Keyboard, ActivityIndicator } from 'react-native';
+import { Keyboard, ActivityIndicator, StyleSheet } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import Icon from 'react-native-vector-icons/MaterialIcons';
+
 import api from '../../services/api';
 
 import {
@@ -81,6 +82,14 @@ export default class Main extends Component {
     navigation.navigate('User', { user });
   };
 
+  handleDelete = item => {
+    const { users } = this.state;
+
+    this.setState({
+      users: users.filter(r => r !== item),
+    });
+  };
+
   render() {
     const { users, newUser, loading } = this.state;
     return (
@@ -109,6 +118,13 @@ export default class Main extends Component {
           keyExtractor={user => user.login}
           renderItem={({ item }) => (
             <User>
+              <Icon
+                name="delete"
+                size={25}
+                color="#999"
+                style={styles.deleteIcon}
+                onPress={() => this.handleDelete(item)}
+              />
               <Avatar source={{ uri: item.avatar }} />
               <Name>{item.name}</Name>
               <Bio>{item.bio}</Bio>
@@ -123,3 +139,9 @@ export default class Main extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+  deleteIcon: {
+    marginLeft: 275,
+  },
+});
