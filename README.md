@@ -7,7 +7,7 @@
 </h4>
 
 <p align="center">
-  <img alt="Repository repo size" src="https://img.shields.io/github/repo-size/Leonardofreua/reactNativeBasic">
+  <img alt="Repository repo size" src="https://img.shields.io/github/repo-size/Leonardofreua/reactNativeBasic.svg">
 
   <a href="https://github.com/Leonardofreua/reactNativeBasic/commits/master">
     <img alt="Repository last commit" src="https://img.shields.io/github/last-commit/Leonardofreua/reactNativeBasic.svg">
@@ -30,7 +30,7 @@
 <br>
 
 <p align="center">
-  <img src="./.github/1.jpg" width="50%" />
+  <img src="./.github/1.jpg" width="100%" />
   <img src="./.github/2.jpg" width="50%" />
 </p>
 
