@@ -142,6 +142,6 @@ export default class Main extends Component {
 
 const styles = StyleSheet.create({
   deleteIcon: {
-    marginLeft: 275,
+    marginLeft: 265,
   },
 });
