@@ -50,21 +50,21 @@
 <p align="center">
   <div class="row">
     <div class="column">
-      <img src="./.github/1.jpg" style="width:100%">
+      <img src="./.github/1.jpg">
     </div>
     <div class="column">
-      <img src="./.github/2.jpg" style="width:100%">
+      <img src="./.github/2.jpg">
     </div>
     <div class="column">
-      <img src="./.github/3.jpg" style="width:100%">
+      <img src="./.github/3.jpg">
     </div>
   </div>
   <div class="row">
     <div class="column">
-      <img src="./.github/4.jpg" style="width:100%">
+      <img src="./.github/4.jpg">
     </div>
     <div class="column">
-      <img src="./.github/5.jpg" style="width:100%">
+      <img src="./.github/5.jpg">
     </div>
   </div>
 </p>
