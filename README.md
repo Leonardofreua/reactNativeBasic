@@ -31,7 +31,7 @@
 
 <p align="center">
   <img src="./.github/1.jpg" width="100%" />
-  <img src="./.github/2.jpg" width="50%" />
+  <img src="./.github/2.jpg" width="70%" />
 </p>
 
 # Topics covered
